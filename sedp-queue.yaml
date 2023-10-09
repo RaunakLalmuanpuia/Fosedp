@@ -1,0 +1,12 @@
+apps:
+  - name: export
+    interpreter: php
+    script: artisan
+    exec_mode: fork
+    instances: 1
+    args:
+      - queue:work --deamon
+      - --queue=high,medium,low
+      - --tries=2
+      - --sleep=1
+      - --timeout=420

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.p{
+    color: #444;
+}
+.text-color{
+    color: #444444;
+}
+
+.sized-btn{
+    min-width: 120px;
+}
+
+
+
+.page-header{
+    font-size: 23px;
+    margin: 0;
+    color: #444444;
+}
+.table-header{
+    font-size: 21px;
+    font-weight: 700;
+}
+.text-sm{
+    font-size: 12px;
+}
+.text-md{
+    font-size: 16px;
+}
+.text-lg{
+    font-size: 21px;
+}
+
+
+@media (max-width: 599px) {
+    .container{
+        padding: 8px;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media (max-width:1439px) {
+    .container {
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+@media (max-width: 1919px) {
+    .container {
+        max-width: 1250px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+@media print {
+    .container{
+        position: absolute;
+        top: 12px;
+        width: 100%;
+    }
+}
+.export-btn {
+    color: #24a7d2;
+    background-color: #4e4b4b;
+    border-color: #ccc;
+}
+.export-btn:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.export-btn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.export-btn:active {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.q-item__section--avatar{
+    min-width: 40px !important;
+}
+.q-item{
+    padding: 4px 12px !important;
+}
